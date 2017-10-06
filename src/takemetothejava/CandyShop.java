@@ -9,9 +9,11 @@ public class CandyShop {
     float sugar;
     int money;
 
-    public CandyShop() {
+    public CandyShop(float sugar) {
         candies = new ArrayList<Candies>();
         lollipops = new ArrayList<Lollipops>();
     }
+
+    public void createSweets()
 
 }
