@@ -20,6 +20,8 @@ public class TakeMeToThe {
         // If we buy sugar we can raise the CandyShop's amount of sugar and reduce the income by the price of it.
         // The CandyShop should be represented as string in this format:
         // "Inventory: 3 candies, 2 lollipops, Income: 100, Sugar: 400gr"
+        CandyShop candyShop;
+
         candyShop = new CandyShop(300);
         candyShop.createSweets(CandyShop.CANDY);
         candyShop.createSweets(CandyShop.CANDY);

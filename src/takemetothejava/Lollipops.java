@@ -1,16 +1,14 @@
 package takemetothejava;
 
-public class Lollipops {
-    int price;
-    float sugar;
+public class Lollipops extends Sweets{
 
 
     public Lollipops () {
-        price = 10;
-        sugar = 5;
+        this.price = 10;
+        this.sugar = 5;
     }
 
-    public int getPrice() {
+    public float getPrice() {
         return price;
     }
 
@@ -25,8 +23,5 @@ public class Lollipops {
     public void setSugar(float sugar) {
         this.sugar = sugar;
     }
-    public int raisePriceCandies(int percent) {
-        price += (price*percent/100);
-        return price;
-    }
+
 }
